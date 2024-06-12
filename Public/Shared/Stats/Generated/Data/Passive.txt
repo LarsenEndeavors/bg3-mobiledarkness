@@ -110,8 +110,9 @@ data "Boosts" "DarkvisionRangeMin(24);ActiveCharacterLight(c46e7ba8-e746-7020-51
 
 new entry "DarknessRules"
 type "PassiveData"
-data "DisplayName" "hefa090ccga631g4b0eg8fc1ga6562b7c44a3;1"
-data "Properties" "IsHidden"
+data "StatusImmunity" "BLINDED_DARKNESS"
+data "IgnoreSurfaceCover" "DarknessCloud"
+data "UnlockSpell" "Target_Darkness;AddChildren,d136c"
 
 new entry "Undead"
 type "PassiveData"
